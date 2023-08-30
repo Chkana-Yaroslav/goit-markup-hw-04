@@ -71,7 +71,14 @@ ul {
 .main-section {
      background-color: #2E2F42;
      text-align: center;
-     }
+     
+     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+     url('../images/people-office.jpg') ;
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: 100%;
+    }
+
 
 .main-title {
         color: #FFFFFF;
@@ -228,6 +235,17 @@ a {
    width: calc((100%-48)/4);
 }
 
+.features-icon {
+    width: 100%;
+    border: 1px solid rgba(142, 143, 153, 1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 100px;
+}
+
+
 .title-two visually-hidden {
     margin-bottom: 8px;
     text-align: left;
@@ -255,6 +273,32 @@ padding: 120px 0;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+}
+
+.team-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.team-icon-item {
+    width: 40px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+}
+
+.team-icon-item-svg {
+        fill: rgb(255, 255, 255);
+}
+
+.team-icon-item-link a {
+    justify-content: center;
+        align-items: center;
 }
 
 .team-list {
