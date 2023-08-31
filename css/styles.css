@@ -50,7 +50,7 @@ ul {
 .navigation {
     display: flex;
     gap: 40px;
-    p
+
    }
 
 .link {
@@ -280,6 +280,7 @@ padding: 120px 0;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .team-icon-item {
@@ -294,12 +295,14 @@ padding: 120px 0;
 
 .team-icon-item-svg {
         fill: rgb(255, 255, 255);
+    
 }
 
 .team-icon-item-link a {
     justify-content: center;
         align-items: center;
-}
+        height: 100%;
+        }
 
 .team-list {
     display: flex;
@@ -353,12 +356,45 @@ footer .maintext, footer .span-studio {
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
-.footer {
-    padding: 100px 0;
+.footer .container {
+    display: flex;
+    gap: 120px;
 }
 
 footer .maintext {
     width: 264px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social p {
+    color: #FFFFFF;
+}
+
+.footer-social-link {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.footer-icon-item {
+    width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: #4d5ae5;
+}
+
+.footer-icon-item-svg {
+    fill: #F4F4FD;
 }
