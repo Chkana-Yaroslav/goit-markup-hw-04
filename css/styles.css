@@ -152,8 +152,7 @@ a {
 .address-list {
     font-style: normal;
     display: flex;
-    /*column-gap: 332px;*/
-    margin-left: auto;
+      margin-left: auto;
     padding-top: 24px;
     padding-bottom: 24px;
 }
